@@ -78,7 +78,7 @@ You will see a few more dialogs (including ones that may ask for your GitHub use
 
 Now to complete the turn-in process, once you confirmed that your code is on GitHub, you need to create a **pull request** against the class GitHub repository. This action will indicate to the original project that you have finished your coding and it will create a place to give feedback on a line by line basis. 
 
-Go to **your** repository (the URL of your repository is something like https://github.com/<Your GitHub Username>/EX02-LetterSize) for this assignment on GitHub and click on the **Pull Request** icon. You should see something similar to this picture:
+Go to **your** repository (the URL of your repository is something like https&#58;//github.com/&lt;Your GitHub Username&gt;/EX02-LetterSize) for this assignment on GitHub and click on the **Pull Request** icon. You should see something similar to this picture:
 
 <img src="https://www.dropbox.com/s/tt3rejkyd8xmxxm/EX02-pull-request.png?dl=1" width="661" height="175" />
 
