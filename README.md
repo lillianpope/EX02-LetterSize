@@ -36,8 +36,7 @@ package edu.sbcc.cs105;
 public class Main {
 
     /**
-     * Test this code by creating an 8.5 x 11 inch letter and getting the size
-     * in millimeters.
+     * Write source code to calculate the size of an 8.5 x 11 inch letter in millimeters.
      * 
      * @param args
      *            command line values. Not used in this example.
