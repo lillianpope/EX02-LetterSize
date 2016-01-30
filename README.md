@@ -12,7 +12,7 @@ _Hint_: When using printf the format specifier for two digits is listed on page 
 
 ### Getting Started
 
-Like our last exercise, we are going to start by creating **Main.java*** Using the techniques shown on the web page titled [How to Start Every Project in this Class](https://github.com/sbcc-cs105-spring2016/HowToStartEveryProject) create a source file called **Main.java**.
+Like our last exercise, we are going to start by creating **Main.java**. Using the techniques shown on the web page titled [How to Start Every Project in this Class](https://github.com/sbcc-cs105-spring2016/HowToStartEveryProject) create a source file called **Main.java**.
 
 **Main.java** is where your source code will go. Replace the code in that file with the code in the grey box below:
 
@@ -48,7 +48,7 @@ public class Main {
 }
 ```
 
-Now go through Main.java and change the [CHANGE THIS TO YOUR INFORMATION] text to the proper items. There are two items to be changed.
+Now go through Main.java and change the [CHANGE THIS TO YOUR INFORMATION] text to the proper items. There are two items to be changed. The CRN # is either 62498, for the Thu. night lab section, or 62499, for the Thu. morning lab section.
 
 Next, write your code to print out the letter size in `public static void main` between the curly braces.
 
@@ -76,9 +76,9 @@ You will see a few more dialogs (including ones that may ask for your GitHub use
 
 ####Completing the turn-in process
 
-Now to complete the turn-in process, once you confirmed that your code is on GitHub, you need to create a **pull request** in the class GitHub repository. This action will indicate to the original project that you have finished your coding and it will create a place to give feedback on a line by line basis. 
+Now to complete the turn-in process, once you confirmed that your code is on GitHub, you need to create a **pull request** against the class GitHub repository. This action will indicate to the original project that you have finished your coding and it will create a place to give feedback on a line by line basis. 
 
-Go to **your** repository for this assignment on GitHub and click on the **Pull Request** icon. You should see something similar to this picture:
+Go to **your** repository (the URL of your repository is something like https://github.com/<Your GitHub Username>/EX02-LetterSize) for this assignment on GitHub and click on the **Pull Request** icon. You should see something similar to this picture:
 
 <img src="https://www.dropbox.com/s/tt3rejkyd8xmxxm/EX02-pull-request.png?dl=1" width="661" height="175" />
 
