@@ -4,12 +4,13 @@ The project name of this exercise is **LetterSize**.
 
 The purpose of this assignment is for you to write more of your own comments, use fundamental data types, and to use constants in your program.
 
-###Problem Description
+### Problem Description
 
  Write a program that displays the dimensions of a letter-size (8.5 × 11 inches) sheet of paper in millimeters. Be sure to print it out so that there are two numbers after the decimal point for the conversions. There are 25.4 millimeters per inch. Use constants and comments in your program. 
 
 _Hint_: When using printf the format specifier for two digits is listed on page 149 of the book.
-Getting Started
+
+### Getting Started
 
 Like our last exercise, we are going to start by creating **Main.java*** Using the techniques shown on the web page titled [How to Start Every Project in this Class](https://github.com/sbcc-cs105-spring2016/HowToStartEveryProject) create a source file called **Main.java**.
 
