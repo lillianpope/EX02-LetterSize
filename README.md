@@ -54,7 +54,7 @@ Next, write your code that creates a string with the computed letter size  in `p
 
 Once you've written your code run the code by single clicking on LetterSize.java in the package explorer and selecting **Run->Run** from the menu or using the keyboard shortcut. Examine the output. Does it do what you want? If not, how can you modify the code to do what you want?
 
-###How to turn in this exercise
+### How to turn in this exercise
 
 The first step of turning in your code is to commit and push your code to BitBucket. Once you've completed this step your code will be on BitBucket in your repository, not the repository for the class. This will allow you to use all your projects later as a portfolio.
 
@@ -74,7 +74,7 @@ You will see a few more dialogs (including ones that may ask for your BitBucket 
 
 1. Push **OK** to complete the commit. You may get no confirmation, but you can check BitBucket to see if the code now exists there.
 
-####Completing the turn-in process
+#### Completing the turn-in process
 
 Now to complete the turn-in process, once you confirmed that your code is on BitBucket, you need to create a **build plan** on Bamboo. This action will create a Bamboo build plan that will build and test your code everytime you push code to your project. You can also run builds manually
 
