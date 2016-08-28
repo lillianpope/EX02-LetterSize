@@ -41,7 +41,7 @@ public class LetterSize {
      * @param args
      *            command line values. Not used in this example.
      */
-    public static void computeLetterSize() {
+    public static String computeLetterSize() {
         // Put your code here.
     }
     
