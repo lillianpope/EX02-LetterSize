@@ -40,7 +40,7 @@ public class LetterSizeTester {
 	}
 
 	@Test
-	public void testHelloWorld() throws Exception {
+	public void testLetterSize() throws Exception {
 		assertTrue(Pattern.matches(".*215\\.90[\\D].*279\\.40([\\D].*)?", LetterSize.computeLetterSize()));
 		totalScore += 4;
 	}
