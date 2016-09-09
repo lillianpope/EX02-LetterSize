@@ -8,7 +8,7 @@ The purpose of this assignment is for you to write more of your own comments, us
 
  Write a program that displays the dimensions of a letter-size (8.5 × 11 inches) sheet of paper in millimeters. Be sure to print it out so that there are two numbers after the decimal point for the conversions. There are 25.4 millimeters per inch. Use constants and comments in your program. 
 
-_Hint_: When using `String.format` the format specifier for two digits is listed on page 149 of the book.
+_Hint_: When using `String.format` the format specifier for two digits is listed on page 50 (149 for Early Objects) of the book. The function there is called `printf`, but the format specifiers are the same. `String.format` returns a formatted string and `printf` sends a formatted string to the console.
 
 ### Getting Started
 
@@ -76,7 +76,7 @@ You will see a few more dialogs (including ones that may ask for your BitBucket 
 
 #### Completing the turn-in process
 
-Now to complete the turn-in process, once you confirmed that your code is on BitBucket, you need to create a **build plan** on Bamboo. This action will create a Bamboo build plan that will build and test your code everytime you push code to your project. You can also run builds manually
+Now to complete the turn-in process, once you confirmed that your code is on BitBucket, you need to create a **build plan** on Bamboo. This action will create a Bamboo build plan that will build and test your code every time you push code to your project. You can also run builds manually
 
 Follow the directions in [How to Turn in Every Project in This Class](http://crowd.cs.sbcc.edu:7990/projects/CS105F2016/repos/allan.knight/browse/HowToTurnInEveryProjectInThisClass.md)
 
