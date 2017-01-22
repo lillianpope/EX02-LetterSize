@@ -6,7 +6,7 @@ The purpose of this assignment is for you to write more of your own comments, us
 
 ### Problem Description
 
- Write a program that displays the dimensions of a letter-size (8.5 × 11 inches) sheet of paper in millimeters. Be sure to print it out so that there are two numbers after the decimal point for the conversions. There are 25.4 millimeters per inch. Use constants and comments in your program. 
+ This problem is in the book at E2.1 (page 71, in the _Late Objects_ version). Write a program that displays the dimensions of a letter-size (8.5 × 11 inches) sheet of paper in millimeters. Be sure to print it out so that there are two numbers after the decimal point for the conversions. There are 25.4 millimeters per inch. Use constants and comments in your program. 
 
 _Hint_: When using `String.format` the format specifier for two digits is listed on page 50 in Big Java Late Objects (149 for Early Objects) of the book. The function there is called `printf`, but the format specifiers are the same. `String.format` returns a formatted string and `printf` sends a formatted string to the console.
 
