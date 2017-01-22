@@ -48,7 +48,7 @@ public class LetterSize {
 }
 ```
 
-Now go through LetterSize.java and change the [CHANGE THIS TO YOUR INFORMATION] text to the proper items. There are two items to be changed. The CRN # is either 38063, for the Thu. night lab section, or 38064, for the Thu. morning lab section.
+Now go through LetterSize.java and change the [CHANGE THIS TO YOUR INFORMATION] text to the proper items. There are two items to be changed. The CRN # section number of the class. Each lab time, for the Thu. night , or for the Thu. morning lab section, has a different section number.
 
 Next, write your code that creates a string with the computed letter size  in `public static String computeLetterSize` between the curly braces.
 
