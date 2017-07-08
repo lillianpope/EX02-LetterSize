@@ -6,7 +6,9 @@ The purpose of this assignment is for you to write more of your own comments, us
 
 ### Problem Description
 
- This problem is in the book as P2.1 (page 71, in the _Late Objects_ version). Write a program that displays the dimensions of a letter-size (8.5 × 11 inches) sheet of paper in millimeters. Be sure to print it out so that there are two numbers after the decimal point for the conversions. There are 25.4 millimeters per inch. Use constants and comments in your program. 
+This problem is in the book as P2.1 (page 71, in the _Late Objects_ version). 
+
+Write a program that displays the dimensions of a letter-size (8.5 × 11 inches) sheet of paper in millimeters. Be sure to print it out so that there are two numbers after the decimal point for the conversions. There are 25.4 millimeters per inch. Use constants and comments in your program. 
 
 _Hint_: When using `String.format` the format specifier for two digits is listed on page 50 in Big Java Late Objects (149 for Early Objects) of the book. The function there is called `printf`, but the format specifiers are the same. `String.format` returns a formatted string and `printf` sends a formatted string to the console.
 
@@ -48,7 +50,7 @@ public class LetterSize {
 }
 ```
 
-Now go through LetterSize.java and change the [CHANGE THIS TO YOUR INFORMATION] text to the proper items. There are two items to be changed. The CRN # section number of the class. Each lab time, for the Thu. night , or for the Thu. morning lab section, has a different section number.
+Now go through **LetterSize.java** and change the [CHANGE THIS TO YOUR INFORMATION] text to the proper items. There are two items to be changed. The CRN # section number of the class. Each lab time, for the Thu. night , or for the Thu. morning lab section, has a different section number.
 
 Next, write your code that creates a string with the computed letter size  in `public static String computeLetterSize` between the curly braces.
 
@@ -109,7 +111,7 @@ Once you've followed these steps you should see this at the top:
 
 7\. Finally, click on **Create**
 
-After selecting **Create**, you code should build and be tested within a minute or so. If the test is successfull you will see something similar to the following screen:
+After selecting **Create**, you code should build and be tested within a minute or so. If the test is successful you will see something similar to the following screen:
 
 <img src="https://dl.dropboxusercontent.com/u/7698973/cs105/EX01-HelloWorld/pull-request-submitted.png" width="740" height="350" />
 
