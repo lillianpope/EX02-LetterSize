@@ -2,8 +2,6 @@
 
 The project name of this exercise is **LetterSize**.
 
-The purpose of this assignment is for you to write more of your own comments, use fundamental data types, and to use constants in your program.
-
 ### Problem Description
 
 The purpose of this assignment is to practice what we learned about constants, variables and formatted output. 
