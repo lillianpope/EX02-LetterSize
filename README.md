@@ -66,9 +66,15 @@ Next, make sure it also passes the Unit tests. To run the Unit tests select the 
 
 ### How to turn in this exercise
 
-The first step of turning in your code is to commit and push your code to GitHub. Once you've completed this step your code will be on GitHub in your repository. This will allow you to use all your projects later as a portfolio.
+Before submitting your code the first time, you will need to add a webhook to this project to trigger the build in the cloud. This process is simple, and only required once per assignment. First, go to the **Settings** tab at the top of this page. It's right next to **Insights**. Then along the left side select **Webhooks**. On the Webhooks page click **Add Webhook** and copy http://209.129.49.16:8080/github-webhook/ into the **Payload URL** input box and then click **Add Webhook**. That's it. Every time you push code now, a new build will test your latest changes. The results are pasted to the #build channel in slack.
 
-To start the process right-click the project name and select **Git -> Commit Directory...**. Be sure to enter a commit message in the "Commit Message" box and then press the **Commit** button. 
+First, right click on the project name, then select `Git -> Commit Directory...`. 
+Make sure only the files you want to push are selected, `main.cc`. Then uncheck `Perform code analysis` and `Check TODO`. It's OK to leave them checked, but committing will take longer. Leave `Run git hooks` unchecked as well. Put a message in `Commit Message` and then press the **Commit** button. If anything goes wrong check the _Version Control_ view
+in the lower left corner and select the _Console_ tab.
+ 
+Finally, right click on the project name, then select `Git -> Repository -> Push...`. Follow the onscreen directions
+and press **OK**. This step will then submit them to the cloud to have the tests run for grading. You can find your results
+in the [#build](https://vc-csv40-spring2019.slack.com/messages/CFK9MU6GK) channel on slack.
 
-Next, push the code to GitHub. Again, right-click the project name and select **Git -> Repository -> Push**. Then press the **Push** button and that's it. The result of your build and tests will be sent to the [#build](https://vc-csv40-spring2019.slack.com/messages/CFK9MU6GK) channel on slack.
-
+If you do not understand these directions, or wish to do them on the command
+line rather than in CLion, then read these [directions](https://github.com/vc-csv40-spring2019/Course-Information/wiki/How-to-Turn-In-Every-Project).
