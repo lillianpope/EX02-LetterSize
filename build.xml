@@ -6,7 +6,7 @@
     <property name="classes.dir" value="${build.dir}/classes"/>
     <property name="jar.dir"     value="${build.dir}/jar"/>
 
-    <property name="main-class"  value="edu.sbcc.cs105.${ant.project.name}"/>
+    <property name="main-class"  value="edu.vcccd.vc.csv40.${ant.project.name}"/>
 
     <property name="lib.dir"     value="lib"/>
     <property name="report.dir"  value="${build.dir}/test-reports"/>
@@ -46,7 +46,7 @@
     
     <target name="test" depends="jar">
         <mkdir dir="${report.dir}"/>
-        <junit printsummary="yes">
+        <junit printsummary="yes" showoutput="yes">
             <classpath>
                 <path refid="classpath"/>
                 <path refid="application"/>
@@ -55,7 +55,7 @@
             <formatter type="xml"/>
             
             <batchtest fork="yes" todir="${report.dir}">
-                <fileset dir="${src.dir}" includes="**/*Tester.java"/>
+                <fileset dir="${src.dir}" includes="**/*Test.java"/>
             </batchtest>
         </junit>
     </target>

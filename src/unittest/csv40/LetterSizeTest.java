@@ -1,19 +1,37 @@
-package unittest.cs105;
+package unittest.csv40;
 
 import static org.junit.Assert.assertTrue;
 
+import java.io.ByteArrayOutputStream;
+import java.io.PrintStream;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import org.junit.AfterClass;
-import org.junit.BeforeClass;
-import org.junit.Test;
+import org.junit.*;
 
-import edu.sbcc.cs105.LetterSize;
+import edu.vcccd.vc.csv40.LetterSize;
 
-public class LetterSizeTester {
-	private static final int maximumScore = 4;
-	private static final int maximumAssignmentScore = 4;
+public class LetterSizeTest {
+	private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+	private final ByteArrayOutputStream errContent = new ByteArrayOutputStream();
+	private final PrintStream originalOut = System.out;
+	private final PrintStream originalErr = System.err;
+
+	private static final int maximumScore = 20;
+	private static final int maximumAssignmentScore = 25;
 	private static int totalScore;
+
+	@Before
+	public void beforeTest() {
+		System.setOut(new PrintStream(outContent));
+		//System.setErr(new PrintStream(errContent));
+	}
+
+	@After
+	public void afterTest() {
+		System.setOut(originalOut);
+		System.setErr(originalErr);
+	}
 
 	@BeforeClass
 	public static void beforeTesting() {
@@ -41,7 +59,9 @@ public class LetterSizeTester {
 
 	@Test
 	public void testLetterSize() throws Exception {
-		assertTrue(Pattern.matches(".*215\\.90[\\D].*279\\.40([\\D].*)?", LetterSize.computeLetterSize()));
-		totalScore += 4;
+		LetterSize.main(null);
+		Matcher m = Pattern.compile(".*215\\.90\\D*279\\.40\\D*").matcher(outContent.toString());
+		assertTrue(m.matches());
+		totalScore += 20;
 	}
 }
