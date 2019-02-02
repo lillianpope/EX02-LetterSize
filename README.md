@@ -20,7 +20,7 @@ to get started.
 Be sure that you accept the invitation first and use the URL from
 the your new project when you clone it in Intellij.
 
-Like our last exercise, we are going to start by creating a Java class. The file for this project is called **LetterSize.java**. Right click on `src` select `New -> Java Class` to create a class called **edu.vcccd.vc.csv40.LetterSize**.
+Like our last exercise, we are going to start by creating a Java class. The file for this project is called **LetterSize.java**. In the Project view, click the trianble next to the project name, then `src`, then `main`, then right-click on `java` select `New -> Java Class` to create a class called **edu.vcccd.vc.csv40.LetterSize**.
 
 That lass action will create a file named **LetterSize.java**. This file is where your source code will go. Replace the code in that file with the code in the grey box below:
 
@@ -69,7 +69,7 @@ Next, make sure it also passes the Unit tests. To run the Unit tests select the 
 Before submitting your code the first time, you will need to add a webhook to this project to trigger the build in the cloud. This process is simple, and only required once per assignment. First, go to the **Settings** tab at the top of this page. It's right next to **Insights**. Then along the left side select **Webhooks**. On the Webhooks page click **Add Webhook** and copy http://209.129.49.16:8080/github-webhook/ into the **Payload URL** input box and then click **Add Webhook**. That's it. Every time you push code now, a new build will test your latest changes. The results are pasted to the #build channel in slack.
 
 First, right click on the project name, then select `Git -> Commit Directory...`. 
-Make sure only the files you want to push are selected, `main.cc`. Then uncheck `Perform code analysis` and `Check TODO`. It's OK to leave them checked, but committing will take longer. Leave `Run git hooks` unchecked as well. Put a message in `Commit Message` and then press the **Commit** button. If anything goes wrong check the _Version Control_ view
+Make sure only the files you want to push are selected, `LetterSize.java`. Then uncheck `Perform code analysis` and `Check TODO`. It's OK to leave them checked, but committing will take longer. Leave `Run git hooks` unchecked as well. Put a message in `Commit Message` and then press the **Commit** button. If anything goes wrong check the _Version Control_ view
 in the lower left corner and select the _Console_ tab.
  
 Finally, right click on the project name, then select `Git -> Repository -> Push...`. Follow the onscreen directions
